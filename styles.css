@@ -26,13 +26,14 @@ body {
     line-height: 1.6;
 }
 
-/* Smooth Scroll */
+/* Smooth Scroll and Scroll Padding for Fixed Navbar */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 70px;
 }
 
 /* Navigation Bar */
-.navbar {
+.navbar.bg-dark {
     background-color: var(--secondary-dark) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     padding: 1rem 0;
@@ -507,9 +508,4 @@ section {
 
 .rounded {
     border-radius: 10px !important;
-}
-
-/* Scroll Padding for Fixed Navbar */
-html {
-    scroll-padding-top: 70px;
 }
