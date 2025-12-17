@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oskar Kaled Gonzalez - Personal Blog</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-cog"></i> Oskar Kaled Gonzalez
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="display-3 fw-bold mb-4">
+                        <i class="fas fa-industry"></i> Oskar Kaled Gonzalez
+                    </h1>
+                    <p class="lead mb-4">Mechanical Engineer | Innovation & Design</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:oskar@email.com">oskar@email.com</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+15551234567">(555) 123-4567</a></p>
+                    </div>
+                    <a href="#about" class="btn btn-primary btn-lg mt-3">
+                        <i class="fas fa-arrow-down"></i> Explore
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                <i class="fas fa-user"></i> About Me
+            </h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800" 
+                         alt="Professional Engineer" 
+                         class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Mechanical Engineering Professional</h3>
+                    <p class="lead">
+                        Welcome to my personal blog and portfolio. I'm a Mechanical Engineering graduate 
+                        from the University of Nebraska-Lincoln with a passion for industrial design, 
+                        innovation, and sustainable energy solutions.
+                    </p>
+                    <p>
+                        With experience in air and gas energy systems, engineering design, and industrial 
+                        assessment, I bring a unique perspective to problem-solving and project development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                <i class="fas fa-file-alt"></i> Resume
+            </h2>
+
+            <!-- Education -->
+            <div class="resume-subsection mb-5">
+                <h3 class="subsection-title">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </h3>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600" 
+                             alt="University Campus" 
+                             class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="education-card">
+                            <h4>University of Nebraska-Lincoln</h4>
+                            <h5>Bachelor of Science in Mechanical Engineering</h5>
+                            <div class="details">
+                                <p><i class="fas fa-award"></i> <strong>Scholar Status:</strong> Dean's List</p>
+                                <p><i class="fas fa-chart-line"></i> <strong>GPA:</strong> 3.8/4.0</p>
+                                <p><i class="fas fa-calendar"></i> <strong>Graduation:</strong> 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Employment -->
+            <div class="resume-subsection mb-5">
+                <h3 class="subsection-title">
+                    <i class="fas fa-briefcase"></i> Employment Experience
+                </h3>
+
+                <!-- Job 1: Rasmussen Air and Gas Energy -->
+                <div class="employment-item mb-4">
+                    <div class="row">
+                        <div class="col-lg-4 mb-3">
+                            <img src="https://images.unsplash.com/photo-1565696636530-7535794526b3?w=600" 
+                                 alt="Industrial Gas Systems" 
+                                 class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="job-card">
+                                <h4>Rasmussen Air and Gas Energy</h4>
+                                <h5>Mechanical Engineer</h5>
+                                <p class="job-period"><i class="fas fa-clock"></i> 2022 - Present</p>
+                                <ul>
+                                    <li>Designed and optimized air and gas energy systems for industrial applications</li>
+                                    <li>Conducted energy efficiency assessments and implemented cost-saving solutions</li>
+                                    <li>Collaborated with cross-functional teams on large-scale energy projects</li>
+                                    <li>Utilized CAD software for system design and technical documentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job 2: Nebraska Engineering Design Hub -->
+                <div class="employment-item mb-4">
+                    <div class="row">
+                        <div class="col-lg-4 mb-3">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600" 
+                                 alt="Engineering Design" 
+                                 class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="job-card">
+                                <h4>Nebraska Engineering Design Hub</h4>
+                                <h5>Design Engineer</h5>
+                                <p class="job-period"><i class="fas fa-clock"></i> 2021 - 2022</p>
+                                <ul>
+                                    <li>Developed innovative engineering solutions for client-sponsored projects</li>
+                                    <li>Created detailed 3D models and technical drawings using SolidWorks</li>
+                                    <li>Performed structural analysis and prototyping for product development</li>
+                                    <li>Presented design proposals to stakeholders and implemented feedback</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job 3: Nebraska Industrial Assessment Center -->
+                <div class="employment-item mb-4">
+                    <div class="row">
+                        <div class="col-lg-4 mb-3">
+                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600" 
+                                 alt="Industrial Assessment" 
+                                 class="img-fluid rounded shadow">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="job-card">
+                                <h4>Nebraska Industrial Assessment Center</h4>
+                                <h5>Assessment Engineer</h5>
+                                <p class="job-period"><i class="fas fa-clock"></i> 2020 - 2021</p>
+                                <ul>
+                                    <li>Conducted comprehensive energy audits for manufacturing facilities</li>
+                                    <li>Identified opportunities for energy savings and productivity improvements</li>
+                                    <li>Prepared detailed assessment reports with cost-benefit analysis</li>
+                                    <li>Recommended sustainable practices and equipment upgrades</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                <i class="fas fa-project-diagram"></i> Projects
+            </h2>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600" 
+                         alt="Innovative Agriculture Technology" 
+                         class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-card">
+                        <h3>Orientation and Singulation of Onions</h3>
+                        <h5 class="text-muted mb-3">Senior Design Project</h5>
+                        <p>
+                            Developed an innovative automated system for the orientation and singulation 
+                            of onions in agricultural processing. This project focused on improving 
+                            efficiency and reducing waste in food processing operations.
+                        </p>
+                        <h6>Key Features:</h6>
+                        <ul>
+                            <li>Automated orientation detection using sensors and imaging technology</li>
+                            <li>Precision singulation mechanism for individual onion handling</li>
+                            <li>Integration with existing conveyor systems</li>
+                            <li>Reduced manual labor and increased processing speed by 40%</li>
+                            <li>Sustainable design with minimal energy consumption</li>
+                        </ul>
+                        <h6>Technologies Used:</h6>
+                        <div class="tech-tags mt-3">
+                            <span class="badge bg-secondary">SolidWorks</span>
+                            <span class="badge bg-secondary">Mechanical Design</span>
+                            <span class="badge bg-secondary">Automation</span>
+                            <span class="badge bg-secondary">Sensors</span>
+                            <span class="badge bg-secondary">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                <i class="fas fa-tools"></i> Skills & Certifications
+            </h2>
+            
+            <div class="row text-center">
+                <div class="col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cube fa-4x mb-3"></i>
+                        </div>
+                        <h4>SolidWorks Certified</h4>
+                        <p>
+                            Professional certification in 3D CAD design and engineering. 
+                            Expert in creating detailed mechanical designs, assemblies, and technical drawings.
+                        </p>
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400" 
+                             alt="CAD Design" 
+                             class="img-fluid rounded shadow mt-3">
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-language fa-4x mb-3"></i>
+                        </div>
+                        <h4>Bilingual Professional</h4>
+                        <p>
+                            Fluent in English and Spanish, enabling effective communication 
+                            in diverse work environments and facilitating international collaboration.
+                        </p>
+                        <img src="https://images.unsplash.com/photo-1523289333742-be1143f6b766?w=400" 
+                             alt="Global Communication" 
+                             class="img-fluid rounded shadow mt-3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Skills -->
+            <div class="additional-skills mt-5">
+                <h4 class="text-center mb-4">Technical Proficiencies</h4>
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="skills-list">
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-drafting-compass"></i> SolidWorks
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-calculator"></i> MATLAB
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-chart-line"></i> Data Analysis
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-industry"></i> Manufacturing Processes
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-bolt"></i> Energy Systems
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-project-diagram"></i> Project Management
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-cogs"></i> Mechanical Design
+                            </span>
+                            <span class="badge bg-dark m-2 p-3">
+                                <i class="fas fa-leaf"></i> Sustainability
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                <i class="fas fa-blog"></i> Blog
+            </h2>
+            
+            <div class="blog-intro text-center mb-5">
+                <p class="lead">
+                    Explore insights on mechanical engineering, industrial innovation, 
+                    and sustainable technology solutions.
+                </p>
+            </div>
+
+            <div class="row">
+                <!-- Blog Post 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400" 
+                             alt="Engineering Innovation" 
+                             class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Coming Soon</span>
+                            <h4>The Future of Industrial Automation</h4>
+                            <p>
+                                Exploring emerging trends in industrial automation and their impact 
+                                on manufacturing efficiency.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=400" 
+                             alt="Sustainable Engineering" 
+                             class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Coming Soon</span>
+                            <h4>Sustainable Energy Solutions</h4>
+                            <p>
+                                How mechanical engineers are contributing to renewable energy 
+                                and environmental sustainability.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400" 
+                             alt="Engineering Design" 
+                             class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Coming Soon</span>
+                            <h4>CAD Design Best Practices</h4>
+                            <p>
+                                Tips and techniques for creating efficient and accurate 3D models 
+                                using SolidWorks.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Oskar Kaled Gonzalez. All rights reserved.</p>
+            <div class="social-links mt-3">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
